@@ -1,0 +1,27 @@
+{
+  "name": "UTA_demo",
+  "version": "1.0.0",
+  "description": "&#34;a mock website of Utahs UTA website with a better front-end and functionality",
+  "author": "Arthur Buck",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "bootstrap": "^4.0.0-beta.2",
+    "bootstrap-vue": "^1.0.2",
+    "express": "^4.15.3",
+    "nuxt": "^1.0.0",
+    "vue-bootstrap-typeahead": "^0.2.6",
+    "vue2-datepicker": "^2.6.3",
+    "vuejs-datepicker": "^1.5.4"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.1",
+    "nodemon": "^1.11.0"
+  }
+}
